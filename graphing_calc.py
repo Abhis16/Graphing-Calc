@@ -34,6 +34,6 @@ scatter_plot = go.Scatter(x=x_vals, y=y_vals)
 
 plotly.offline.plot({
     "data": [scatter_plot],
-    "layout": go.Layout(title="Cube Function")
+    "layout": go.Layout(title="Graphing-Calc")
 }, auto_open=True)
 
